@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+android:id="@+id/duinocam"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:background="#000000"
+>
+
+<ImageView
+ android:id="@+id/ImageView"
+ android:src="@drawable/motoduino"
+ android:layout_width="fill_parent"
+ android:layout_height="wrap_content"
+ android:layout_alignParentTop="true"
+ android:layout_centerHorizontal="true"
+ >
+</ImageView>
+<ImageButton
+ android:id="@+id/Shoot"
+ android:src="@drawable/shoot" 
+ android:layout_width="wrap_content"
+ android:layout_height="wrap_content"
+ android:layout_alignParentBottom="true"
+ android:layout_alignParentLeft="true"
+ android:layout_marginLeft="20dip">
+ </ImageButton>
+<ImageButton
+ android:id="@+id/Exit"
+ android:src="@drawable/exit"
+ android:layout_width="wrap_content"
+ android:layout_height="wrap_content"
+ android:layout_alignParentBottom="true"
+ android:layout_alignParentRight="true"
+ android:layout_marginRight="20dip"> 
+</ImageButton>
+</RelativeLayout>
