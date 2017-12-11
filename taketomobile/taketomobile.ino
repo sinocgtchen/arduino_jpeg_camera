@@ -1,5 +1,9 @@
+//Author : Dennis Chen 
+//email : sinocgtchen@gmail.com
 // This is a basic snapshot sketch using the VC0706 library.
-
+// descriptions:  receives control code from android phone via bluetooth
+//                 code 'a': image size: 320x240
+//                 code 'b' : image size: 640x480
 #include <Adafruit_VC0706.h>
 //#include <SD.h>
 
