@@ -12,7 +12,7 @@
   Usage:
 
   Arduino side :
-  1. download VC0706 library (https://Adafruit-VC0706-Serial-Camera-Library)
+  1. download VC0706 library (https://github.com/adafruit/Adafruit-VC0706-Serial-Camera-Library)
   2. unzip it and copy to arduino/libraries
   3. compile sketch and download to Arduino board
 
